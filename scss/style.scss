@@ -1,0 +1,47 @@
+.square {
+  svg {
+    fill: lightblue;
+    stroke: blue;
+    stroke-width: 5;
+  }
+}
+
+.rectangle {
+  svg {
+    fill: lawngreen;
+    stroke: green;
+    stroke-width: 5;
+  }
+}
+
+.circle {
+  svg {
+    fill: lightcoral;
+    stroke: red;
+    stroke-width: 5;
+    animation: colorChange 3s infinite;
+  }
+}
+
+.ellipse {
+  svg {
+    fill: plum;
+    stroke: purple;
+    stroke-width: 5;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    fill: lightcoral;
+    stroke: red;
+  }
+  50% {
+    fill: yellow;
+    stroke: orange;
+  }
+  100% {
+    fill: lightcoral;
+    stroke: red;
+  }
+}

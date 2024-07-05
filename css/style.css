@@ -1,0 +1,2 @@
+.circle{-webkit-animation:colorChange 3s infinite;animation:colorChange 3s infinite}@-webkit-keyframes colorChange{0%{fill:lightcoral;stroke:red}50%{fill:yellow;stroke:orange}to{fill:lightcoral;stroke:red}}@keyframes colorChange{0%{fill:lightcoral;stroke:red}50%{fill:yellow;stroke:orange}to{fill:lightcoral;stroke:red}}
+/*# sourceMappingURL=style.css.map */
